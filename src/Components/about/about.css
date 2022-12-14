@@ -1,0 +1,61 @@
+.flowchart{
+    color:#5b4b36;
+    padding:10px 20px 20px;
+    margin-bottom:1px;
+    display:flex;
+}
+
+.flowchart:last-child {
+    margin-bottom: 0;
+}
+
+.flowchart>*{
+    padding:10px; 
+}
+
+.flowchart:nth-child(1) .flow_no,
+.flowchart:nth-last-child(1) .flow_no{
+    background-color: #a38187;
+    color:wheat;
+}
+
+.flow_no{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:pink;
+    min-width: 100px;
+    align-self: center;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    position:relative;
+}
+
+.flow_approval{
+    background-color:#e1e1f0;
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flow_approval p:nth-child(1){
+    font-size:0.4em;
+    color:#77555b;
+    padding-bottom:10px;
+}
+
+.flow_container{
+    position: relative;
+    max-width: 800px;
+}
+.flow_container::before {
+    content: "";
+    width: 1px;
+    background: rgb(181 45 45);
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    height: calc(100% - 30px);
+}

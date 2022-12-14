@@ -1,0 +1,20 @@
+[
+  {
+    "FirstName": "Nitish",
+    "LastName": "Nivedan",
+    "DisableCheckbox": "1",
+    "Gender": "M"
+  },
+  {
+    "FirstName": "Niranjan",
+    "LastName": "Barik",
+    "DisableCheckbox": "1",
+    "Gender": "F"
+  },
+  {
+    "FirstName": "Nitisha",
+    "LastName": "Nivedans",
+    "DisableCheckbox": "1",
+    "Gender": "M"
+  }
+]
