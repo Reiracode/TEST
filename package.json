@@ -2,7 +2,7 @@
   "name": "reirasys",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reiracode.github.io/Reirasys",
+  "homepage": "https://reiracode.github.io/test",
   "dependencies": {
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
