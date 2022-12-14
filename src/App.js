@@ -18,8 +18,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="page">
-        {/* <BrowserRouter basename="Reirasys"> */}
-        <BrowserRouter>
+        <BrowserRouter basename="Reirasys">
+        {/* <BrowserRouter> */}
           <AuthProvider>
             <Header />
             <Routes>  
