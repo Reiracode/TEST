@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="page">
-        <BrowserRouter basename="Reirasys">
+        <BrowserRouter basename="test">
         {/* <BrowserRouter> */}
           <AuthProvider>
             <Header />
